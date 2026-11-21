@@ -91,6 +91,7 @@ footer{background:var(--pine);color:#f7f0e5;text-align:center;padding:32px 18px}
 <div id="cartItems"></div><div class="total"><span>Total</span><span id="total">$0</span></div>
 <div class="field"><label>Tu nombre</label><input id="customer" placeholder="¿Cómo te llamas?"></div>
 <p class="muted" style="font-size:.9rem">Para pedidos a domicilio o para recoger, algunos productos llevan empaque adicional de $1.000 por unidad. No aplica si comes en el establecimiento.</p><div class="field"><label>¿Cómo quieres recibir tu pedido?</label><select id="delivery" onchange="toggleAddress();renderCart()"><option>Domicilio</option><option>Recoger en el establecimiento</option><option>Comer en el establecimiento</option></select></div>
+<p class="muted" style="font-size:.9rem;line-height:1.5;margin-top:-.35rem">Recuerda que el servicio a domicilio tiene un costo adicional de $3.000 a $4.000, dependiendo de la ubicación del cliente.<br><br>📍 El valor del domicilio se confirma al momento de realizar tu pedido.</p>
 <div class="field" id="addressField"><label>Dirección y barrio</label><input id="address" placeholder="Dirección para el domicilio"></div>
 <div class="field"><label>Método de pago</label><select id="payment"><option>Efectivo</option><option>Nequi</option><option>Bancolombia</option></select></div>
 <div class="field"><label>Indicaciones adicionales (opcional)</label><textarea id="notes" placeholder="Ej. sin cebolla, agregar salsas..."></textarea></div>
